@@ -7,9 +7,9 @@ import { Icons } from "@/components/common/icons/icons";
 import EmojisComponent from "./emojis";
 export default function Hero() {
   return (
-    <section className="relative px-9 gap-24  w-full min-h-[85vh] flex items-center justify-center max-w-[1472px] mx-auto">
+    <section className="relative px-9 overflow-hidden gap-24  w-full min-h-[85vh] flex items-center justify-center max-w-[1472px] mx-auto">
       {/* background image  */}
-      <div className="-z-10 w-full h-full absolute">
+      <div className="-z-10 w-full h-full scale-[1.4] absolute top-0 left-0">
         <Image src={bg} className="h-full w-full" alt="background" />
       </div>
 

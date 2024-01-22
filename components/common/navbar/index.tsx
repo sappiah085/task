@@ -19,7 +19,7 @@ const btn = [
 ];
 function Navbar() {
   return (
-    <header className="fixed  z-40 mx-auto  border-[1px] bg-lightGrey rounded-[300px] border-darkGrey    p-4  top-4 w-full max-w-[1472px] flex items-center ">
+    <header className="fixed  z-40 mx-auto  border-[1px] bg-lightGrey rounded-[300px] border-darkGrey    p-4  top-4 w-full max-w-[1472px] flex items-center  py-5">
       <nav className="flex w-full items-center justify-between">
         <a href="/">
           <Image src={logo} className="h-[28px]" alt="logo" />
