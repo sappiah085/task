@@ -7,7 +7,7 @@ const Belt = () => {
       <p className="text-[20px]  leading-[30px] text-gray-600">
         Join 1,500+ companies already video conferencing the ClearLink way
       </p>
-      <Image src={sponsor} alt="sponsor" />
+      <Image priority src={sponsor} alt="sponsor" />
     </section>
   );
 };
