@@ -41,7 +41,7 @@ const FAQ = () => {
         <p className="text-[24px] max-w-[800px] leading-[32px] text-gray-500 ">
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please{" "}
-          <span className="underline">chat to our friendly team.</span>
+          <a href='/' className="underline">chat to our friendly team.</a>
         </p>
       </div>
       <ListItem
